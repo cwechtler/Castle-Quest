@@ -208,7 +208,7 @@ public class TextController : MonoBehaviour {
 					"Sudenly he raises his staff and casts a spell on you. " +
 					"You become frozen in a block of ice to remain there for all eternity.\n" +
 					"_____ YOU LOSE!!!! _____\n\n" +
-					"Press Enter to star over";
+					"Press Enter to start over";
 		if 		(Input.GetKeyDown(KeyCode.Return))		{myState = States.Start;}	
 	}	
 	
